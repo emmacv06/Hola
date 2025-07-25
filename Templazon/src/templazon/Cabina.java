@@ -33,7 +33,7 @@ public class Cabina {
         int posicion = obtenerPosicionHora(hora.trim().toLowerCase());
 
         if (posicion == -1) {
-            JOptionPane.showMessageDialog(null, "❌ Hora inválida.");
+            JOptionPane.showMessageDialog(null, "Hora inválida.");
             return;
         }
 
